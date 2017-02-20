@@ -1,0 +1,69 @@
+
+
+
+body{
+	background-color: #000;
+	color: #1DE9B6;
+	font-family: 'Raleway';
+	font-weight: 100;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+
+}
+.svg-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-content: center;
+}
+
+// path {
+// 	stroke: #1DE9B6;
+// }
+
+a {
+	text-decoration: none;
+	color: #1DE9B6;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	font-size: 16px;
+}
+
+.name-container .sub-title{
+	font-size: 10px;
+	margin-left: 12px;
+}
+
+.links-container {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	right: 100px;
+	height: 300px;
+}
+
+.links-container .nav-link{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+.contact-container {
+    position: absolute;
+    right: 110px;
+    top: 58px;
+}
+
+.contact-container .main-title{
+	font-size: 14px;
+}
+
+.contact-container .contact{
+	font-size: 12px;
+	margin-left: 22px;
+}
